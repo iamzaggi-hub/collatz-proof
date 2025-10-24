@@ -116,7 +116,7 @@ def analyze_collatz_advanced(sample_size=100000):
                     "execution_timestamp": datetime.now().isoformat(),
                     "code_version": "Zapata_Collatz_Code_Fixed.py v2.0",
                     "researcher": "Francisco J. Zapata García",
-                    "independent_verification": "https://github.com/[USER]/collatz-proof"
+                    "independent_verification": "https://github.com/iamzaggi-hub/collatz-proof"
                 }
             }
         }
@@ -140,4 +140,5 @@ if __name__ == "__main__":
     if results and results["collatz_geometric_proof"]["empirical_evidence"]["flow_curvature"] > 0:
         print("\n🎉 ¡VERIFICACIÓN EXITOSA!")
         print("   Los resultados confirman tu teoría geométrica")
-        print("   Procede con la estrategia Perelman de distribución")
+        print("   Procede con la estrategia de difusión")
+
